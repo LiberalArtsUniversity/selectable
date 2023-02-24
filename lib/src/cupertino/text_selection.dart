@@ -49,7 +49,7 @@ const Color _kPopupMenuDividerColor = Color(0xFF808080);
 
 const TextStyle _kPopupMenuButtonFontStyle = TextStyle(
   inherit: false,
-  fontSize: 14.0,
+  fontSize: 13.0,
   letterSpacing: -0.15,
   fontWeight: FontWeight.w400,
   color: CupertinoColors.white,
@@ -57,7 +57,7 @@ const TextStyle _kPopupMenuButtonFontStyle = TextStyle(
 
 // Eyeballed value.
 const EdgeInsets _kPopupMenuButtonPadding =
-    EdgeInsets.symmetric(vertical: 10.0, horizontal: 18.0);
+    EdgeInsets.symmetric(vertical: 8.0, horizontal: 14.0);
 
 /// An iOS-style popup menu that appears in response to text selection.
 ///
